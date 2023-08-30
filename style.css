@@ -37,5 +37,12 @@ html, body {
     background-color: #fff;
     object-fit: cover;
     transition: all 0.3s ease-in-out;
-}
 
+}
+ /* DANNY STYLE */
+ .danny-page{
+    margin: 20px;
+    padding: 20px;
+    font-size: 16px;
+    background-color: aquamarine;
+    }
