@@ -49,7 +49,18 @@ pre {
     padding: 20px;
     font-size: 16px;
     background-color: aquamarine;
-    }
+ }
+    
+.danny-button{
+        background-color: #4CAF50; /* Green */
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+}
 
 /* Vy */
 .vy-page {
@@ -121,7 +132,7 @@ pre {
 }
 
 .leo-fake-header {
-    font-family: 'Impact', sans-serif;';
+    font-family: 'Impact', sans-serif;
     font-size: 15px;
     text-align: center;
     margin: 5px;
