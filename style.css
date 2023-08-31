@@ -74,3 +74,64 @@ pre {
     cursor: pointer;
     color: white;
 }
+
+/* LEO */
+.leo-page {
+    /* center whole site in middle of page */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    /* make the background a gradient */
+    background: linear-gradient(45deg, #4d86d5, #4d86d5c7);
+    /* make the text white */
+    color: white;
+}
+
+.leo-image {
+    & > img {
+        height: 200px;
+        width: 300px;
+        border-radius: 5%;
+        object-fit: cover;
+    }
+}
+
+.leo-button {
+    background-color: #4d86d5;
+    border-radius: 10px;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    display: inline-block;
+    font-size: 15px;
+    margin: 15px;
+    
+    & > a {
+        text-decoration: none;
+        color: white;
+    }
+    
+    &:hover {
+        background-color: #4d86d5c7;
+        cursor: pointer;
+        color: white;
+    }
+}
+
+.leo-fake-header {
+    font-family: 'Impact', sans-serif;';
+    font-size: 15px;
+    text-align: center;
+    margin: 5px;
+    padding: 0px;
+}
+
+.leo-text {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    text-align: center;
+    margin: 5px;
+    padding: 0px;
+}
