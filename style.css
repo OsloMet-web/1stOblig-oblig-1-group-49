@@ -1,0 +1,99 @@
+/* make html fullpage */
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.frontpage {
+    margin: 20px;
+    padding: 20px;
+    box-sizing: border-box;
+    font-family: Georgia, serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #000;
+    background-color: rgb(245, 170, 196);
+}
+
+.img-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+    max-width: 1200px;
+}
+
+.img-container > a > img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin: 10px;
+    border: 5px solid #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    background-color: #fff;
+    object-fit: cover;
+    transition: all 0.3s ease-in-out;
+
+}
+
+.button1 {
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: rgb(252, 204, 221);
+    color: #000;
+    text-decoration: none;
+    font-family: Georgia, serif;
+    font-size: 16px;
+    line-height: 1.5;
+    transition: all 0.3s ease-in-out;
+    margin-top: 25px;
+
+    & > a {
+        color: #000;
+        text-decoration: none;
+    }
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: rgb(99, 150, 99);
+    color: #000;
+    text-decoration: none;
+    font-family: Georgia, serif;
+    font-size: 16px;
+    line-height: 1.5;
+    transition: all 0.3s ease-in-out;
+    margin-bottom: 50px;
+    margin-left: 25px;
+
+    & > a {
+        color: #000;
+        text-decoration: none;
+    }
+}
+
+.page2 {
+    background-color: darkseagreen;
+    margin: 50px
+}
+
+.info-block {
+    background-color: rgb(164, 206, 164);
+    margin: 25px;
+    padding: 25px;
+    border-radius: 25px;
+}
+
+.right {
+    float: right;
+    width: auto;
+    height: 200px;
+    margin: 10px;
+}
