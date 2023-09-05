@@ -17,10 +17,6 @@ html, body {
     background-color: rgb(245, 170, 196);
 }
 
-pre {
-    font-family: Georgia, serif;
-}
-
 .img-container {
     display: flex;
     flex-wrap: wrap;
@@ -43,110 +39,61 @@ pre {
     transition: all 0.3s ease-in-out;
 
 }
- /* DANNY STYLE */
- .danny-page{
-    margin: 20px;
-    padding: 20px;
+
+.button1 {
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: rgb(252, 204, 221);
+    color: #000;
+    text-decoration: none;
+    font-family: Georgia, serif;
     font-size: 16px;
-    background-color: aquamarine;
- }
-    
-.danny-button{
-        background-color: #4CAF50; /* Green */
-        border: none;
-        color: white;
-        padding: 15px 32px;
-        text-align: center;
-        text-decoration: none;
-        display: inline-block;
-        font-size: 16px;
-}
+    line-height: 1.5;
+    transition: all 0.3s ease-in-out;
+    margin-top: 25px;
 
-/* Vy */
-.vy-page {
-    font-family: 'Roboto', sans-serif;
-    font-size: 15px;   
-    background-image: url(blindern-vgs.png);
-    background-size: cover;
-}
-.vy-button {
-    background-color: #4d86d5;
-    border-radius: 25px;
-    color: white;
-    padding: 10px 20px;
-    text-align: center;
-    display: inline-block;
-    font-size: 15px;
-    margin: 15px;
-}
-
-.vy-button:hover {
-    background-color: #4d86d5c7;
-    cursor: pointer;
-    color: white;
-}
-
-/* LEO */
-.leo-page {
-    /* center whole site in middle of page */
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 100%;
-    /* make the background a gradient */
-    background: linear-gradient(45deg, #4d86d5, #4d86d5c7);
-    /* make the text white */
-    color: white;
-}
-
-.leo-image {
-    & > img {
-        height: 200px;
-        width: 300px;
-        border-radius: 5%;
-        object-fit: cover;
-    }
-}
-
-.leo-button {
-    background-color: #4d86d5;
-    border-radius: 10px;
-    color: white;
-    padding: 10px 20px;
-    text-align: center;
-    display: inline-block;
-    font-size: 15px;
-    margin: 15px;
-    
     & > a {
+        color: #000;
         text-decoration: none;
-        color: white;
-    }
-    
-    &:hover {
-        background-color: #4d86d5c7;
-        cursor: pointer;
-        color: white;
     }
 }
 
-.leo-fake-header {
-    font-family: 'Impact', sans-serif;
-    font-size: 15px;
-    text-align: center;
-    margin: 5px;
-    padding: 0px;
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: rgb(99, 150, 99);
+    color: #000;
+    text-decoration: none;
+    font-family: Georgia, serif;
+    font-size: 16px;
+    line-height: 1.5;
+    transition: all 0.3s ease-in-out;
+    margin-bottom: 50px;
+    margin-left: 25px;
+
+    & > a {
+        color: #000;
+        text-decoration: none;
+    }
 }
 
-.leo-text {
-    font-family: 'Roboto', sans-serif;
-    font-size: 15px;
-    text-align: center;
-    margin: 5px;
-    padding: 0px;
+.page2 {
+    background-color: darkseagreen;
+    margin: 50px
 }
 
-.leo-small {
-    font-size: 14px;
+.info-block {
+    background-color: rgb(164, 206, 164);
+    margin: 25px;
+    padding: 25px;
+    border-radius: 25px;
+}
+
+.right {
+    float: right;
+    width: auto;
+    height: 200px;
+    margin: 10px;
 }
